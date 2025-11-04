@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/logos/logo-s.png" sizes="any" />
       </head>
-      <body className={`${inter.className} p-2`}>
+      <body className={`${inter.className}`}>
         <ClerkProvider>
           <ConvexClientProvider>
             <Header />
